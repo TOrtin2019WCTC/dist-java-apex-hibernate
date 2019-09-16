@@ -7,28 +7,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2414324-c134-4de0-951a-7e1679023a54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DatabaseUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/searchServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Servlet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apex/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/db.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apex/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/log/log.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apex/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apex/seg0/c20.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/seg0/c20.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apex/seg0/c31.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/seg0/c31.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apex/seg0/c400.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/seg0/c400.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apex/seg0/c41.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/seg0/c41.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apex/seg0/c411.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/seg0/c411.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apex/seg0/c421.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/seg0/c421.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apex/seg0/c4c0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/seg0/c4c0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apex/seg0/c51.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/seg0/c51.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apex/seg0/c60.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/seg0/c60.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apex/seg0/c71.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/seg0/c71.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apex/seg0/c81.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/seg0/c81.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apex/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/seg0/c90.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apex/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/seg0/ca1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apex/seg0/cb1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/seg0/cb1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apex/seg0/d4b0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/apex/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/log/log1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/classes/DatabaseUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/classes/DatabaseUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/classes/searchServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/classes/searchServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/db.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/log/log.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/log/log1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/log/logmirror.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ApexLegends/DatabaseUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ApexLegends/DatabaseUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ApexLegends/searchServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ApexLegends/searchServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DatabaseUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DatabaseUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/searchServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchServlet.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,10 +47,13 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1Qfdxul1JY0W1Is0MZsc3wDeKJO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/apex" />
@@ -138,7 +134,7 @@
       <workItem from="1568165837199" duration="2476000" />
       <workItem from="1568174138609" duration="4518000" />
       <workItem from="1568244263041" duration="3006000" />
-      <workItem from="1568582192700" duration="3390000" />
+      <workItem from="1568582192700" duration="9963000" />
     </task>
     <servers />
   </component>
@@ -157,5 +153,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

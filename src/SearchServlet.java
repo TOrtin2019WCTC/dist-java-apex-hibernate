@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.sql.*;
 
 @WebServlet(name = "searchServlet", urlPatterns = "/search")
-public class searchServlet extends HttpServlet {
+public class SearchServlet extends HttpServlet {
     private final String USER = "tim";
     private final String PW ="tim";
     private final String DRIVER = "jdbc:derby:";

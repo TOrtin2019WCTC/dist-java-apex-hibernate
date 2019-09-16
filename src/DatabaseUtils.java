@@ -5,7 +5,7 @@ import java.sql.Statement;
 
 public class DatabaseUtils {
     public static final String DRIVER_NAME = "jdbc:derby:";
-    public static final String DATABASE_PATH = "/WEB-INF/lib/ApexLegends";
+    public static final String DATABASE_PATH = "/WEB-INF/lib/apex";
     public static final String USERNAME = "tim";
     public static final String PASSWORD = "tim";
 
