@@ -27,16 +27,18 @@ public class Servlet2 extends HttpServlet {
             String path = getServletContext().getRealPath(DB_PATH);
             conn = DriverManager.getConnection(DRIVER + path, USER, PW);
             stmt = conn.createStatement();
-            rset = stmt.executeQuery("select FIRST_NAME from USERS");
+            rset = stmt.executeQuery("select * from USERS");
 
 
             StringBuilder html = new StringBuilder("<html><body><ul>");
+            html.append("<h1>ID   Name     Email").append("</h1>").append("<br>");
 
-
-            response.getWriter().print(html.toString());
             while (rset.next()) {
+                int id = rset.getInt("USER_ID");
+                String email = rset.getString("EMAIL");
+                String lName = rset.getString("LAST_NAME");
                 String fName = rset.getString("FIRST_NAME");
-                html.append("<li>").append(fName).append("</li>");
+                html.append("<li>").append(id + "," + fName + " " + lName + ", " + email).append("</li>");
 
 
             }
