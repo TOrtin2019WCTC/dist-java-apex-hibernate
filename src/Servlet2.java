@@ -47,10 +47,12 @@ public class Servlet2 extends HttpServlet {
             html.append("</ul></body></html>");
 
             response.getWriter().print(html.toString());
-            utils.closeAll(conn,stmt,rset);
+
         }catch(ClassNotFoundException | SQLException ex){
             response.getWriter().print(ex.getMessage());
             ex.printStackTrace();
+        }finally{
+            utils.closeAll(conn,stmt,rset);
         }
 
 

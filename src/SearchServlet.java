@@ -47,10 +47,12 @@ public class SearchServlet extends HttpServlet {
             html.append("</body></html>");
 
             response.getWriter().print(html.toString());
-            utils.closeAll(conn,pstmt,rset);
+
         }catch(ClassNotFoundException | SQLException ex){
             response.getWriter().print(ex.getMessage());
             ex.printStackTrace();
+        }finally{
+            utils.closeAll(conn,pstmt,rset);
         }
 
 
