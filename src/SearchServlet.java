@@ -12,6 +12,7 @@ public class SearchServlet extends HttpServlet {
     private final String PW ="tim";
     private final String DRIVER = "jdbc:derby:";
     private final String DB_PATH= "/WEB-INF/lib/apex";
+    DatabaseUtils utils = new DatabaseUtils();
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
     }
@@ -46,9 +47,12 @@ public class SearchServlet extends HttpServlet {
             html.append("</body></html>");
 
             response.getWriter().print(html.toString());
+            utils.closeAll(conn,pstmt,rset);
         }catch(ClassNotFoundException | SQLException ex){
             response.getWriter().print(ex.getMessage());
+            ex.printStackTrace();
         }
+
 
     }
     }

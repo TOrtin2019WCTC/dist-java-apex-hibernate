@@ -9,13 +9,15 @@
     <list default="true" id="b2414324-c134-4de0-951a-7e1679023a54" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/classes/Servlet2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/classes/Servlet2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/classes/searchServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/classes/searchServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/db.lck" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/log/log.ctrl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/log/log1.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/log/logmirror.ctrl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/ApexLegends/Servlet2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ApexLegends/Servlet2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ApexLegends/searchServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ApexLegends/searchServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Servlet2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Servlet2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +130,7 @@
       <workItem from="1568165837199" duration="2476000" />
       <workItem from="1568174138609" duration="4518000" />
       <workItem from="1568244263041" duration="3006000" />
-      <workItem from="1568582192700" duration="11029000" />
+      <workItem from="1568582192700" duration="12327000" />
     </task>
     <servers />
   </component>

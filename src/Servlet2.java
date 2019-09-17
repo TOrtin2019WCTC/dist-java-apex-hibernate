@@ -12,6 +12,7 @@ public class Servlet2 extends HttpServlet {
     private final String PW ="tim";
     private final String DRIVER = "jdbc:derby:";
     private final String DB_PATH= "/WEB-INF/lib/apex";
+    DatabaseUtils utils = new DatabaseUtils();
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
     }
@@ -38,7 +39,7 @@ public class Servlet2 extends HttpServlet {
                 String email = rset.getString("EMAIL");
                 String lName = rset.getString("LAST_NAME");
                 String fName = rset.getString("FIRST_NAME");
-                html.append("<li>").append(id + "," + fName + " " + lName + ", " + email).append("</li>");
+                html.append("<li>").append(id + ", " + fName + " " + lName + ",  " + email).append("</li>");
 
 
             }
@@ -46,9 +47,12 @@ public class Servlet2 extends HttpServlet {
             html.append("</ul></body></html>");
 
             response.getWriter().print(html.toString());
+            utils.closeAll(conn,stmt,rset);
         }catch(ClassNotFoundException | SQLException ex){
             response.getWriter().print(ex.getMessage());
+            ex.printStackTrace();
         }
+
 
     }
     }
