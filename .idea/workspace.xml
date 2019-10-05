@@ -7,45 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b2414324-c134-4de0-951a-7e1679023a54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apex.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/aopalliance-1.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/commons-logging-1.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-aop-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-aspects-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-beans-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-context-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-context-support-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-core-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-expression-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-instrument-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-instrument-tomcat-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-jdbc-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-jms-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-messaging-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-orm-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-oxm-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-test-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/spring/spring-tx-4.3.18.RELEASE.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/springxml/beans/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/springxml/services/LegendRecommendationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/springxml/services/RecommendationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/springxml/services/WeaponRecommendationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/ApexLegends_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/ApexLegends_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/springxml/springApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/user.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ApexLegends.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ApexLegends.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apex/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/db.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apex/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/log/log.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apex/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/log/log1.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apex/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/log/logmirror.ctrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apex/seg0/c150.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/seg0/c150.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apex/seg0/c161.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/seg0/c161.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apex/seg0/c171.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/seg0/c171.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apex/seg0/c230.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/seg0/c230.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apex/seg0/c90.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/seg0/c90.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apex/seg0/ca1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/seg0/ca1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apex.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/springxml/beans/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/springxml/beans/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/springxml/services/LegendRecommendationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/springxml/services/LegendRecommendationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/springxml/services/WeaponRecommendationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/springxml/services/WeaponRecommendationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -82,6 +52,7 @@
       <list>
         <option value="HTML File" />
         <option value="Interface" />
+        <option value="spring-beans.schema" />
         <option value="Class" />
       </list>
     </option>
@@ -120,6 +91,9 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\People\Desktop\ApexLegends\src" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -139,7 +113,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.springApp">
+    <configuration name="springApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="springxml.springApp" />
+      <module name="ApexLegends" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="springxml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 9.0.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.24" ALTERNATIVE_JRE_ENABLED="false">
       <deployment>
         <artifact name="ApexLegends:war exploded">
@@ -178,6 +165,11 @@
         </option>
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.springApp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="allServicesViewState">
@@ -187,11 +179,6 @@
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
               <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@910a658f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@910a658f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@4fdc8d34" type="9fbbdea:ServiceModel$ServiceNode" />
             </path>
           </expand>
           <select />
@@ -216,7 +203,7 @@
       <workItem from="1568683366288" duration="4186000" />
       <workItem from="1569458705213" duration="296000" />
       <workItem from="1569459199066" duration="1949000" />
-      <workItem from="1570065950704" duration="2965000" />
+      <workItem from="1570065950704" duration="6509000" />
     </task>
     <servers />
   </component>

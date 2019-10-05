@@ -37,6 +37,7 @@ public class User {
         this.firstName = firstName;
     }
 
+
     public String getLastName() {
         return lastName;
     }
@@ -51,5 +52,9 @@ public class User {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getRecommendation(){
+        return service.getRecommendation();
     }
 }
