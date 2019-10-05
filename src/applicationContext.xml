@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+<context:property-placeholder location="classpath:user.properties"></context:property-placeholder>
+
+    <bean id="service" class="springxml.services.WeaponRecommendationService">
+    </bean>
+
+
+    <bean id="user" class="springxml.beans.User">
+        <property name="recommendationService" ref="service"/>
+        <property name="userId" value="${user.userId}"/>
+        <property name="firstName" value="${user.firstName}"/>
+        <property name="lastName" value="${user.lastName}"/>
+        <property name="email" value="${user.email}"/>
+
+    </bean>
+
+</beans>
