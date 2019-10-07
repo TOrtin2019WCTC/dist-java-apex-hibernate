@@ -1,128 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="ApexLegends:war exploded" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
-    <list default="true" id="b2414324-c134-4de0-951a-7e1679023a54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/springxml/springApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/user.properties" afterDir="false" />
+    <list default="true" id="763ff0a1-1e00-455c-9e89-bdb938d18c50" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apex.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/springxml/beans/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/springxml/beans/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/springxml/services/LegendRecommendationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/springxml/services/LegendRecommendationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/springxml/services/WeaponRecommendationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/springxml/services/WeaponRecommendationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ApexLegends/springxml/services/WeaponRecommendationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ApexLegends/springxml/services/WeaponRecommendationService.class" afterDir="false" />
     </list>
-=======
-    <list default="true" id="b2414324-c134-4de0-951a-7e1679023a54" name="Default Changelist" comment="" />
->>>>>>> Stashed changes
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="apex" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="apex" type="feb32156:DbDataSourceImpl" />
-        <item name="TIM: schema" type="12aa88c4:DerbyImplModel$Schema" />
-      </path>
-    </expand>
-    <select />
-  </component>
->>>>>>> spring
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="HTML File" />
-        <option value="Interface" />
-        <option value="spring-beans.schema" />
-        <option value="Class" />
-      </list>
-    </option>
-=======
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
->>>>>>> Stashed changes
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IgnoredFileRootStore">
-    <option name="generatedRoots">
-      <set>
-        <option value="C:\Users\People\Desktop\ApexLegends\.idea" />
-      </set>
-    </option>
-  </component>
-  <component name="LogFilters">
-    <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
-  </component>
-  <component name="ProjectId" id="1Qfdxul1JY0W1Is0MZsc3wDeKJO" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="derby" />
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/derbytools.jar" />
-    <property name="project.structure.last.edited" value="Problems" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\People\Desktop\ApexLegends\src" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\People\Desktop\ApexLegends\lib" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -136,7 +24,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.springApp">
+  <component name="RunManager">
     <configuration name="springApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="springxml.springApp" />
       <module name="ApexLegends" />
@@ -150,98 +38,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 9.0.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.24" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment>
-        <artifact name="ApexLegends:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/ApexLegends_war_exploded" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_24_ApexLegends" />
-      </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="ApexLegends:war exploded" />
-        </option>
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.springApp" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@910a658f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </treeState>
-      </serviceView>
-    </option>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@910a658f" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </treeState>
-      </serviceView>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="b2414324-c134-4de0-951a-7e1679023a54" name="Default Changelist" comment="" />
-      <created>1568165834652</created>
+      <changelist id="763ff0a1-1e00-455c-9e89-bdb938d18c50" name="Default Changelist" comment="" />
+      <created>1570470815738</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1568165834652</updated>
-      <workItem from="1568165837199" duration="2476000" />
-      <workItem from="1568174138609" duration="4518000" />
-      <workItem from="1568244263041" duration="3006000" />
-      <workItem from="1568582192700" duration="14253000" />
-      <workItem from="1568683366288" duration="4186000" />
-      <workItem from="1569458705213" duration="296000" />
-      <workItem from="1569459199066" duration="1949000" />
-      <workItem from="1570065950704" duration="6509000" />
+      <updated>1570470815738</updated>
+      <workItem from="1570470817941" duration="269000" />
     </task>
     <servers />
   </component>
@@ -253,15 +66,10 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
