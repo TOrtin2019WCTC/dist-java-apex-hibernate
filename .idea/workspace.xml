@@ -1,12 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="763ff0a1-1e00-455c-9e89-bdb938d18c50" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ApexLegends/springxml/services/WeaponRecommendationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ApexLegends/springxml/services/WeaponRecommendationService.class" afterDir="false" />
+    <list default="true" id="d5d903b8-62e0-4f93-af31-63b271c07d14" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/classes/DatabaseUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/classes/Servlet2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/classes/searchServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/db.lck" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/log/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/log/log.ctrl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/log/log1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/log/logmirror.ctrl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/README_DO_NOT_TOUCH_FILES.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c10.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c101.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c111.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c121.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c130.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c141.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c150.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c161.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c171.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c180.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c191.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c1a1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c1b1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c1c0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c1d1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c1e0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c1f1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c20.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c200.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c211.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c221.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c230.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c241.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c251.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c260.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c271.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c281.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c290.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c2a1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c2b1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c2c1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c2d0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c2e1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c2f0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c300.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c31.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c311.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c321.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c331.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c340.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c351.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c361.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c371.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c380.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c391.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c3a1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c3b1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c3c0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c3d1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c3e1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c3f1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c400.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c41.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c411.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c421.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c430.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c441.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c451.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c461.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c470.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c481.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c4c0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c51.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c60.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c71.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c81.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/c90.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/ca1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/cb1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/cc0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/cd1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/ce1.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/seg0/cf0.dat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/apex/service.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/derby.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/derbyshared.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/lib/derbytools.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/apex-script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/legends.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/list.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/map.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/new-legend.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/octane.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/photos/ApexLogo1.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/photos/ApexLogo2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/photos/ApexPhoto.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/photos/Wraith.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/photos/Wraith2.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/photos/map.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/photos/octane.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/ApexLegends_war_exploded/wraith.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ApexLegends/DatabaseUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ApexLegends/Servlet2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ApexLegends/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ApexLegends/searchServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ApexLegends/springxml/beans/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ApexLegends/springxml/services/LegendRecommendationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ApexLegends/springxml/services/RecommendationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ApexLegends/springxml/services/WeaponRecommendationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ApexLegends/springxml/springApp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ApexLegends/user.properties" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,52 +136,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="springApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="springxml.springApp" />
-      <module name="ApexLegends" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="springxml.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.springApp" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="763ff0a1-1e00-455c-9e89-bdb938d18c50" name="Default Changelist" comment="" />
-      <created>1570470815738</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1570470815738</updated>
-      <workItem from="1570470817941" duration="269000" />
-    </task>
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
