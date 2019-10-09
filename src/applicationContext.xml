@@ -6,7 +6,7 @@
 
 <context:property-placeholder location="classpath:user.properties"></context:property-placeholder>
 
-    <bean id="service" class="springxml.services.WeaponRecommendationService">
+    <bean id="service" class="springxml.services.LegendRecommendationService">
     </bean>
 
 

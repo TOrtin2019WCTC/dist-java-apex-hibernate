@@ -1,7 +1,9 @@
 package springxml;
 
+import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import springxml.beans.User;
+import springxml.services.WeaponRecommendationService;
 
 public class springApp {
     public static void main(String[] args) {
@@ -13,5 +15,9 @@ public class springApp {
         System.out.println(user.getLastName());
         System.out.println(user.getEmail());
         System.out.println(user.getRecommendation());
+
+
+
+        context.close();
 }
 }

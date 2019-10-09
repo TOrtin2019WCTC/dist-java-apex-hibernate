@@ -14,7 +14,7 @@ public class User {
     }
 
     public User(RecommendationService service){
-
+        this.service = service;
     }
 
     public void setRecommendationService(RecommendationService service){
