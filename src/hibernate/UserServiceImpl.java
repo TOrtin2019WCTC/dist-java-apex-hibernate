@@ -20,7 +20,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     @Transactional
-    public void saveUser(User aUser) {
+    public void saveUser(User aUser, String applicationPath) {
         userDAO.saveUser(aUser);
     }
 
