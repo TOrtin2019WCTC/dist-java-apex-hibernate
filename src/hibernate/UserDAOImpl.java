@@ -25,7 +25,6 @@ public class UserDAOImpl implements UserDAO {
         return list;
 
     }
-
     @Override
     public void saveUser(User aUser) {
         Session session = sessionFactory.getCurrentSession();
@@ -42,7 +41,7 @@ public class UserDAOImpl implements UserDAO {
     }
 
     @Override
-    public void deleteDonut(int userId) {
+    public void deleteUser(int userId) {
         Session session = sessionFactory.getCurrentSession();
 
         Query query = session.createQuery("delete from User where id = :userToDeleteId");
@@ -53,7 +52,7 @@ public class UserDAOImpl implements UserDAO {
     }
 
     @Override
-    public List<User> getUserByName(String theSearchTerm) {
+    public List<User> getUsersByName(String theSearchTerm) {
         Session session = sessionFactory.getCurrentSession();
 
         Query<User> query = session.createQuery("from User where lower(lastName) like :searchTerm");

@@ -4,7 +4,7 @@ import hibernate.entity.User;
 
 import java.util.List;
 
-public interface UserDAO {
+public interface UserService {
     List<User> getUsers();
 
     void saveUser(User aUser);
@@ -14,7 +14,4 @@ public interface UserDAO {
     void deleteUser(int userId);
 
     List<User> getUsersByName(String theSearchTerm);
-
-
-
 }
