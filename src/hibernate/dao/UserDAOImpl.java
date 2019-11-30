@@ -1,4 +1,4 @@
-package hibernate;
+package hibernate.dao;
 
 import hibernate.entity.User;
 import org.hibernate.Session;

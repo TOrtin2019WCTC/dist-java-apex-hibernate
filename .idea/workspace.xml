@@ -7,8 +7,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5d903b8-62e0-4f93-af31-63b271c07d14" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApexLegends.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ApexLegends.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/derby.log" beforeDir="false" afterPath="$PROJECT_DIR$/derby.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/apex/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/db.lck" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/apex/log/log.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/log/log.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/apex/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/log/log1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/apex/log/logmirror.ctrl" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/log/logmirror.ctrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/apex/seg0/c400.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/seg0/c400.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/apex/seg0/c4c0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/seg0/c4c0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate/UserDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/dao/UserDAOImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate/controllers/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/applicationContext.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/users/list-users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/users/list-users.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/users/add-user-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/add-user-form.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/users/list-users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/list-users.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/users/users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/users.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,11 +102,11 @@
       <recent name="hibernate.controllers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\People\Desktop\Dist-Java-ApexLegends\web\WEB-INF\view" />
       <recent name="C:\Users\People\Desktop\Dist-Java-ApexLegends\lib\springmvc" />
       <recent name="C:\Users\People\Desktop\Dist-Java-ApexLegends\web\WEB-INF\resources\img" />
       <recent name="C:\Users\People\Desktop\Dist-Java-ApexLegends\web\WEB-INF\resources\js" />
       <recent name="C:\Users\People\Desktop\Dist-Java-ApexLegends\web\WEB-INF\resources\css" />
-      <recent name="C:\Users\People\Desktop\Dist-Java-ApexLegends\web\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -105,13 +121,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HibernateApp">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.24">
     <configuration name="HibernateApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hibernate.HibernateApp" />
       <module name="ApexLegends" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hibernate.*" />
+          <option name="PATTERN" value="hibernate.dao.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -240,7 +256,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572482891689</updated>
-      <workItem from="1572482919368" duration="17039000" />
+      <workItem from="1572482919368" duration="22473000" />
     </task>
     <servers />
   </component>

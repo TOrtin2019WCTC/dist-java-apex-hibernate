@@ -1,13 +1,8 @@
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%--
-  Created by IntelliJ IDEA.
-  User: People
-  Date: 11/29/2019
-  Time: 11:18 AM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
+
 <html>
 <head>
     <title>Users</title>
@@ -20,7 +15,7 @@
     </div>
 </div>
 <form:form method="Get" action="search">
-    Search Users <input type="search" name="searchTerm">
+    Search Users By Last Name <input type="search" name="searchTerm">
     <input type="submit" value="search">
 </form:form>
 
@@ -43,7 +38,7 @@
 
                 <tr>
                     <td> ${tempUser.firstName}</td>
-                    <td>${tempUser.LastName}</td>
+                    <td>${tempUser.lastName}</td>
                     <td>${tempUser.email}</td>
                     <td>
                         <a href="${updateLink}">Update</a>

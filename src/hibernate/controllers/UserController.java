@@ -1,6 +1,6 @@
 package hibernate.controllers;
 
-import hibernate.UserService;
+import hibernate.service.UserService;
 import hibernate.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.propertyeditors.StringTrimmerEditor;
@@ -20,13 +20,18 @@ public class UserController {
     @Autowired
     private UserService userService;
 
+    @RequestMapping("/home")
+    public String index(){
+        return "users";
+    }
+
     @RequestMapping("/list")
     public String listUsers(Model theModel){
         List<User> theList = userService.getUsers();
 
         theModel.addAttribute("users", theList);
 
-        return "users/list-users";
+        return "list-users";
     }
 
     @GetMapping("/search")
@@ -35,7 +40,7 @@ public class UserController {
 
         theModel.addAttribute("users", theList);
 
-        return "users/list-users";
+        return "list-users";
     }
 
     @GetMapping("/delete")
@@ -51,7 +56,7 @@ public class UserController {
 
         theModel.addAttribute("aUser", existingUser);
 
-        return"users/add-user-form";
+        return "add-user-form";
     }
 
     @RequestMapping("/add-user-form")
@@ -60,7 +65,7 @@ public class UserController {
 
         theModel.addAttribute("aUser", newUser);
 
-        return"users/add-user-form";
+        return "add-user-form";
     }
 
     @PostMapping("/save")
@@ -68,7 +73,7 @@ public class UserController {
                            request){
         if (bindingResult.hasErrors()) {
             System.out.println(bindingResult);
-            return "users/add-user-form";
+            return "add-user-form";
         }
 
         userService.saveUser(newUser, request.getServletContext().getRealPath("/"));
