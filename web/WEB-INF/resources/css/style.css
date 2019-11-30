@@ -183,4 +183,18 @@ footer{
     width: 100%;
 }
 
+a {
+    color: white;
+}
+input[type=submit]{
+    color:white;
+    background-color: red;
+    align-content: center;
+    height: 50px;
+    width: 150px;
+}
+
+
+
+
 

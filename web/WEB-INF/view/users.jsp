@@ -9,6 +9,7 @@
 <html>
 <head>
     <title>Users</title>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css" type="text/css">
 </head>
 <body>
 <h3>users</h3>

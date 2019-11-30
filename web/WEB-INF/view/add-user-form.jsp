@@ -10,33 +10,36 @@
 <html>
 <head>
     <title>Add User</title>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css" type="text/css">
+
+
 </head>
 <body>
-<div id="wrapper">
+<div id="wrapper" style="text-align: center;">
     <div id="header">
         <h2>New User</h2>
     </div>
 </div>
 
-<div id="container">
+<div id="container" style="justify-content: center;">
     <div id="content">
         <form:form action="save" modelAttribute="aUser">
             <form:hidden path="id" value="${aUser.id}"></form:hidden>
             <table>
                 <tr>
-                    <td><label>First Name</label></td>
+                    <td><label style="color: white; font-size: 1.5em;">First Name: </label></td>
                     <td><form:input path="firstName"></form:input></td>
                 </tr>
                 <tr>
-                    <td><label>Last Name</label></td>
+                    <td><label style="color: white; font-size: 1.5em;">Last Name: </label></td>
                 <td><form:input path="lastName"></form:input></td>
                 </tr>
                 <tr>
-                    <td><label>Email</Label></td>
+                    <td><label style="color: white; font-size: 1.5em;">Email: </Label></td>
                     <td><form:input path="email"></form:input></td>
                 </tr>
                 <tr>
-                    <input type="submit" value="Save">
+                    <td><input type="submit" value="Save"></td>
                 </tr>
             </table>
         </form:form>
