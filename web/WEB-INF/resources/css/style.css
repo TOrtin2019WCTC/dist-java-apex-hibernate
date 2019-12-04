@@ -197,6 +197,11 @@ input[type=submit]{
 .errors{
     color: red;
     font-size: small;
+    border: 2px solid red;
+}
+
+button {
+    cursor: pointer;
 }
 
 

@@ -15,12 +15,12 @@ public class User {
 
     @Column(name="first_name")
     @NotNull(message = "this field is required")
-    @Size(min = 1, max= 30, message = "1-30 characters")
+    @Size(min = 2, max= 30, message = "2-30 characters")
     private String firstName;
 
     @Column(name="last_name")
     @NotNull(message = "this field is required")
-    @Size(min = 1, max= 30, message = "1-30 characters")
+    @Size(min = 2, max= 30, message = "2-40 characters")
     private String lastName;
 
     @Column(name="email")
