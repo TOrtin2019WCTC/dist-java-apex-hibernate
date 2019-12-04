@@ -1,6 +1,9 @@
 package hibernate.entity;
 
 import javax.persistence.*;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
 
 @Entity
 @Table(name="users")
@@ -11,12 +14,19 @@ public class User {
     private int id;
 
     @Column(name="first_name")
+    @NotNull(message = "this field is required")
+    @Size(min = 1, max= 30, message = "1-30 characters")
     private String firstName;
 
     @Column(name="last_name")
+    @NotNull(message = "this field is required")
+    @Size(min = 1, max= 30, message = "1-30 characters")
     private String lastName;
 
     @Column(name="email")
+    @NotNull(message = "this field is required")
+    @Size(min = 1, max= 99, message = "1-99 characters")
+    @Email(message = "Enter a valid email address")
     private String email;
 
     public User() {

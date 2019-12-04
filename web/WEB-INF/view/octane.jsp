@@ -1,13 +1,14 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%@ page contentType="text/html; charset=UTF-8" language="java"%>
-<c:set var="cp" value="${pageContext.request.contextPath}"/>
-
 <html lang="en">
 <head>
-
-    <title>Apex Legends</title>
-    <meta name="description" content="Website that offers information about Apex Legends game">
-    <link rel="stylesheet" href="${cp}/resources/css/style.css" type="text/css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="resources/css/style.css" type="text/css">
+    <title>Apex Legends::Octane</title>
+    <meta name="viewport"
+          content="width=device-width,
+        initial-scale=1.0">
+    <meta name="description" content = "Website that offers information about Apex Legends game">
+    <c:set var="cp" value="${pageContext.request.contextPath}"/>
 
 </head>
 <body>
@@ -21,18 +22,18 @@
     <nav class="navigation">
         <ul>
             <p class="nav-item"><a href="home">Home</a></p>
-            <p class="nav-item"><a href="map">Map</a></p>
-            <p class="nav-item"><a href="legends">Legends</a></p>
+            <p class="nav-item"> <a href="map">Map</a></p>
+            <p class="nav-item"><a href ="legends">Legends</a></p>
             <c:url var="addUser" value="/users/list"></c:url>
             <p class="nav-item"><a href ="${addUser}">Users</a></p>
         </ul>
+        </ul>
     </nav>
     <br>
-    <div id="main-page-photo">
-        <img src="resources/img/ApexPhoto.jpg" height="300" width="900" alt="apex legends characters photo"/>
+    <p> Nothing here yet</p>
 
-    </div>
     <footer>Tim Ortin 2019</footer>
 </div>
+
+
 </body>
-</html>

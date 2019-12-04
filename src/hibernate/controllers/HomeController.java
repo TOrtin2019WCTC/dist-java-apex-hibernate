@@ -7,11 +7,17 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import javax.servlet.http.HttpServletRequest;
 
 @Controller
+@RequestMapping("/")
 public class HomeController {
 
-    @RequestMapping("/")
+    @RequestMapping("/home")
     public String showHomePage(){
         return "index";
+    }
+
+    @RequestMapping("/")
+    public String defaultPage(){
+        return"index";
     }
 
     @RequestMapping("/error")
@@ -37,6 +43,32 @@ public class HomeController {
         theModel.addAttribute("errorMessage", message);
         return "errors";
     }
+
+    @RequestMapping("/octane")
+    public String octane(){
+        return "octane";
+    }
+
+    @RequestMapping("/wraith")
+    public String wraith(){
+        return "wraith";
+    }
+
+    @RequestMapping("/map")
+      public String map(){
+        return "map";
+    }
+
+    @RequestMapping("/legends")
+    public String legends(){
+        return "legends";
+    }
+
+
+
+
+
+
 
 
 }

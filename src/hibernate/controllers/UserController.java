@@ -47,7 +47,7 @@ public class UserController {
     public String deleteUser(@RequestParam("userId") int theId){
         userService.deleteUser(theId);
 
-        return"redirect:/user/list";
+        return"redirect:/users/list";
     }
 
     @RequestMapping("/showUpdateUserForm")

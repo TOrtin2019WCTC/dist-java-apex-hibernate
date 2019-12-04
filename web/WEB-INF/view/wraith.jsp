@@ -2,21 +2,24 @@
 <%--
   Created by IntelliJ IDEA.
   User: People
-  Date: 12/1/2019
-  Time: 6:28 PM
+  Date: 12/4/2019
+  Time: 9:38 AM
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <c:set var="cp" value="${pageContext.request.contextPath}"/>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="${cp}/resources/css/style.css" type="text/css">
-    <title>Apex Legends :: Legends</title>
+
+    <title>Apex Legends::Wraith</title>
     <meta name="viewport"
           content="width=device-width,
         initial-scale=1.0">
     <meta name="description" content = "Website that offers information about Apex Legends game">
+    <link rel="stylesheet" href="${cp}/resources/css/style.css" type="text/css">
+
 
 </head>
 <body>
@@ -33,19 +36,20 @@
             <p class="nav-item"> <a href="map">Map</a></p>
             <p class="nav-item"><a href ="legends">Legends</a></p>
             <c:url var="addUser" value="/users/list"></c:url>
-            <p class="nav-item"><a href ="${addUser}">Users</a></p>
-        </ul>
+            <p class="nav-item"><a href ="${addUser}">Users</a></p></ul>
         </ul>
     </nav>
     <br>
-    <div id="wraith">
-        <a href ="wraith"> <img src="${cp}/resources/img/Wraith.jpeg" height="168" width="300" alt="photo of character wraith"/></a>
-    </div>
-    <div id="octane">
-        <a href = "octane"><img src="${cp}/resources/img/octane.jpg" height="168" width="300" alt="photo of character octane"/></a>
+    <div class="legend-info">
+        <h1>Wraith</h1>
+        <div class="legend-photo"><img src="${cp}/resources/img/Wraith2.jpeg" height="168" width="300" alt="photo of character Wraith"/>
+        </div>
+        <p>Passive Ability: Voices from the Void<br><br>
+            Tactical Ability: Into the Void<br><br>
+            Ultimate Ability: Dimensional Rift</p>
     </div>
     <footer>Tim Ortin 2019</footer>
 </div>
 
+
 </body>
-</html>

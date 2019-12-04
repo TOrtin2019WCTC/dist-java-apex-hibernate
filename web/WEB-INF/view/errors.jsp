@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: People
@@ -6,11 +7,23 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<c:set var="cp" value="${pageContext.request.contextPath}"/>
+
 <html>
-<head>
-    <title>Error</title>
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/css/style.css">
-</head>
+<div class="wrapper">
+    <header>
+        <img src="${cp}/resources/img/ApexLogo1.jpeg" height="150" width="200" alt="circled A logo"/>
+        <h1>Apex Legends Guide</h1>
+        <img src="${cp}/resources/img/ApexLogo1.jpeg" height="150" width="200" alt="circled A logo"/>
+    </header>
+    <br>
+    <nav class="navigation">
+        <ul>
+            <c:url var="home" value=""></c:url>
+            <p class="nav-item"><a href="${home}">Home</a></p>
+        </ul>
+    </nav>
+</div>
 <body>
 <div id="header">
     <h1>Sorry, You've Encountered a Legendary Error</h1>

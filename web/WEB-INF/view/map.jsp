@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%--
   Created by IntelliJ IDEA.
   User: People
@@ -21,17 +22,18 @@
 <body>
 <div class="wrapper">
     <header>
-        <img src="${cp}/resources/img/ApexLogo1.jpeg" height="205" width="246" alt="circled A logo"/>
+        <img src="${cp}/resources/img/ApexLogo1.jpeg" height="150" width="200" alt="circled A logo"/>
         <h1>Apex Legends Guide</h1>
-        <img src="${cp}/resources/img/ApexLogo1.jpeg" height="205" width="246" alt="circled A logo"/>
+        <img src="${cp}/resources/img/ApexLogo1.jpeg" height="150" width="200" alt="circled A logo"/>
     </header>
     <br>
     <nav class="navigation">
         <ul>
-            <p class="nav-item"><a href="index.jsp">Home</a></p>
-            <p class="nav-item"> <a href="map.jsp">Map</a></p>
-            <p class="nav-item"><a href ="legends.jsp">Legends</a></p>
-            <p class="nav-item"><a href ="add-user-form.jsp">New Legend Notification</a></p>
+            <p class="nav-item"><a href="home">Home</a></p>
+            <p class="nav-item"> <a href="map">Map</a></p>
+            <p class="nav-item"><a href ="legends">Legends</a></p>
+            <c:url var="addUser" value="/users/list"></c:url>
+            <p class="nav-item"><a href ="${addUser}">Users</a></p>
         </ul>
     </nav>
     <br>
