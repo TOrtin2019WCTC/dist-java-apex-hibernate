@@ -8,8 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d5d903b8-62e0-4f93-af31-63b271c07d14" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/add-user-form.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/add-user-form.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/list-users.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/list-users.jsp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -241,7 +239,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572482891689</updated>
-      <workItem from="1572482919368" duration="37296000" />
+      <workItem from="1572482919368" duration="39653000" />
     </task>
     <servers />
   </component>
