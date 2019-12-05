@@ -25,7 +25,8 @@
     <br>
     <nav class="navigation">
         <ul style="justify-content: center;">
-            <p class="nav-item"><a href="home">Home</a></p>
+            <c:url var="home" value="/"></c:url>
+            <p class="nav-item"><a href="${home}">Home</a></p>
         </ul>
     </nav>
 
