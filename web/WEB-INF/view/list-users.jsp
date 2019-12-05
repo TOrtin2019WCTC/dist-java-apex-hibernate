@@ -39,11 +39,13 @@
     <button onClick="window.location.href = 'list'; return false;" style="background-color: white; color: black; border: 2px solid red;">All Users</button>
 </form:form>
 
-<div id="container" style="text-align: center;">
+<div id="container" style="
+text-align: center;">
     <div id="content">
         <table>
             <tr>
                 <th></th>
+                <th>User-Id</th>
                 <th>First Name</th>
                 <th>Last Name</th>
                 <th>Email</th>
@@ -57,6 +59,7 @@
                 </c:url>
 
                 <tr>
+                    <td>${tempUser.id}</td>
                     <td> ${tempUser.firstName}</td>
                     <td>${tempUser.lastName}</td>
                     <td>${tempUser.email}</td>
@@ -73,6 +76,6 @@
         </table>
     </div>
 </div>
-
+</div>
 </body>
 </html>

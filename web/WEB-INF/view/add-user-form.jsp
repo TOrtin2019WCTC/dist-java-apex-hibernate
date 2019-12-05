@@ -11,6 +11,7 @@
 <c:set var="cp" value="${pageContext.request.contextPath}"/>
 
 <html>
+<body>
 <div class="wrapper">
     <header>
         <img src="${cp}/resources/img/ApexLogo1.jpeg" height="150" width="200" alt="circled A logo"/>
@@ -27,7 +28,7 @@
             <p class="nav-item"><a href="${home}">Home</a></p>
         </ul>
     </nav>
-<body>
+
 <div id="wrapper" style="text-align: center;">
     <div id="header">
         <h2>New User/Edit User</h2>
@@ -60,6 +61,7 @@
             </table>
         </form:form>
     </div>
+</div>
 </div>
 </body>
 </html>
