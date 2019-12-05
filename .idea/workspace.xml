@@ -7,10 +7,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5d903b8-62e0-4f93-af31-63b271c07d14" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/apex/db.lck" beforeDir="false" afterPath="$PROJECT_DIR$/lib/apex/db.lck" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/view/errors.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/view/errors.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/unused-html-files/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/legends.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/unused-html-files/legends.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/unused-html-files/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/map.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/unused-html-files/map.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/new-legend.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/unused-html-files/new-legend.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/octane.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/unused-html-files/octane.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/unused-html-files/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/wraith.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/unused-html-files/wraith.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -88,11 +92,11 @@
       <recent name="hibernate.controllers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\People\Desktop\Dist-Java-ApexLegends\web\WEB-INF\unused-html-files" />
       <recent name="C:\Users\People\Desktop\Dist-Java-ApexLegends\web\WEB-INF\view" />
       <recent name="C:\Users\People\Desktop\Dist-Java-ApexLegends\lib\springmvc" />
       <recent name="C:\Users\People\Desktop\Dist-Java-ApexLegends\web\WEB-INF\resources\img" />
       <recent name="C:\Users\People\Desktop\Dist-Java-ApexLegends\web\WEB-INF\resources\js" />
-      <recent name="C:\Users\People\Desktop\Dist-Java-ApexLegends\web\WEB-INF\resources\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -242,7 +246,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572482891689</updated>
-      <workItem from="1572482919368" duration="33612000" />
+      <workItem from="1572482919368" duration="33779000" />
     </task>
     <servers />
   </component>
